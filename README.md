@@ -4,7 +4,7 @@ First, we need to obtain and preprocess the data for the segmentation task
 The data is provided by the medical segmentation decathlon challenge(http://medicaldecathlon.com/) <br />
 
 (Data License: CC-BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/) <br/>
-![alt text](https://github.com/fshnkarimi/LungTumor-Segmentation/blob/main/Images/images_1.gif?raw=true)
+![alt text](https://github.com/)
 
 ## Preprocessing
 
@@ -20,7 +20,7 @@ We need to implement the following functionality:
 3. Load slice and label
 4. Data Augmentation.
 5. Return slice and mask <br/>
-![alt text](https://github.com/fshnkarimi/LungTumor-Segmentation/blob/main/Images/images_3.png?raw=true)
+![alt text](https://github.com/)
 
 ## Model
 then, we will create the model for the atrium segmentation! <br />
