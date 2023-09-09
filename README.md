@@ -48,4 +48,4 @@ Computed Dice-score: 0.896
 
 ## Visualization
 
-![alt text]([https://github.com/mrshamshir/Lung-Tumor-Segmentation/blob/main/images/my_animation_2.gif?raw=true))
+![alt text](images/my_animation_2.gif?raw=true))
