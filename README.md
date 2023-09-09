@@ -4,7 +4,7 @@ First, we need to obtain and preprocess the data for the segmentation task
 The data is provided by the medical segmentation decathlon challenge(http://medicaldecathlon.com/) <br />
 
 (Data License: CC-BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/) <br/>
-![alt text]([https://github.com/mrshamshir/Lung-Tumor-Segmentation/blob/main/images/my_animation_1.gif?raw=true))
+![alt text](images/my_animation_1.gif?raw=true))
 
 ## Preprocessing
 
