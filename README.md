@@ -21,7 +21,7 @@ We need to implement the following functionality:
 3. Load slice and label
 4. Data Augmentation.
 5. Return slice and mask <br/>
-![alt text](https://github.com/)
+![alt text](images/augmentation.png?raw=true)
 
 ## Model
 then, we will create the model for the lung tumor segmentation! <br />
