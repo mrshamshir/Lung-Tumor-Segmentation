@@ -14,7 +14,7 @@ The data is provided by the medical segmentation decathlon challenge(http://medi
 4. As we want to tackle this task on a slice level (2D) and not on a subject level (3D) to reduce the computational cost **we should store the preprocessed data as 2D files**, because reading a single slice is much faster than loading the complete NIfTI file.
 
 
-## DataSet Creation
+## Dataset Creation
 We need to implement the following functionality:
 1. Create a list of all 2D slices. To so we need to extract all slices from all subjects
 2. Extract the corresponding label path for each slice path
@@ -24,7 +24,6 @@ We need to implement the following functionality:
 ![alt text](images/augmentation.png?raw=true)
 
 ## Model
-then, we will create the model for the lung tumor segmentation! <br />
 We will use the most famous architecture for this task, the U-NET (https://arxiv.org/abs/1505.04597). <br/>
 
 The idea behind a UNET is the Encoder-Decoder architecture with additional skip-connctions on different levels:
@@ -32,6 +31,7 @@ The encoder reduces the size of the feature maps by using downconvolutional laye
 The decoder reconstructs a mask of the input shape over several layers by upsampling.
 Additionally skip-connections allow a direct information flow from the encoder to the decoder on all intermediate levels of the UNET.
 This allows for a high quality of the produced mask and simplifies the training process.<br />
+![alt text](images/unet.png?raw=true)
 
 ## Training
 We will implement full segmentaion model with pytorch-lightning.
